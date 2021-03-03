@@ -8799,7 +8799,12 @@ h1, h2, h3, h4, h5,
       .services-1:hover h3:after {
         background: #000000; }
 
+.desc {
+  height: 180px;
+}
+
 .tec {
+  height: 80px;
   text-align: left;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -9724,4 +9729,5 @@ textarea.form-control {
     .certificate:hover {
       box-shadow: 5px 5px 5px 5px #0069d9;
     }
+
 
