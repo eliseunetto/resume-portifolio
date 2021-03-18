@@ -1,0 +1,638 @@
+@charset "UTF-8";
+
+
+/* LOGO 01 COTTON */
+.logoCotton {
+    margin-right: 10px;
+}
+
+.logoPageCotton {
+    margin-right: 80px;
+}
+
+@media(max-width: 480px){
+
+    .logoPageCotton {
+        margin-right: 0px;
+    }
+    
+    h3{
+        font-size: 50%;
+    }
+}
+
+/* TABLE PAINEL COTAÇÕES */
+div#prod-txt {
+	border: 1px solid #ffffff;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+table#painelCot {
+	color: #2f2f2f;
+	width: 820px;
+	background: #d4e1e4;
+	border: 0px double #000000;
+	border-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: calibri;
+	font-size: 11pt;
+	text-align: center;
+	box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+}
+
+table#painelCot  th{ 
+	background: #97a9ae;
+	border: 1px solid #ffffff;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: bolder;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+table#painelCot td.produto {
+	background: #bdcacc;
+	text-align: left;
+	padding-left: 10px;
+	border: 1px solid #ffffff;
+	font-weight: bold;
+	width: 280px;
+}
+
+table#painelCot td.produtoComDesc {
+	background: #bdcacc;
+	text-align: left;
+	padding-left: 10px;
+	border: 1px solid #ffffff;
+	width: 280px;
+}
+
+table#painelCot td.intervalo{
+	background: #ffffff;
+	height: 3px;
+}
+
+table#painelCot td.interFoot{
+	background: #ffffff;
+	height: 8px;
+}
+
+table#painelCot td.cifrao{
+	padding-left: 10px;
+}
+
+table#painelCot td.precoA{
+	width: 100px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+table#painelCot td.precoSC{
+	width: 100px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+table#painelCot td.saca{
+	width: 70px;
+}
+
+table#painelCot td.regiao{
+	width: 220px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+table#painelCot td.pgto{
+	width: 80px;
+}
+
+table#painelCot  caption {
+	color: #888888;
+	font-size: 16pt;
+	font-weight: bolder;
+}
+
+table#painelCot caption span {
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 10pt;
+	margin-top: 8px;
+}
+
+table#painelCot th.tabFoot{
+	text-align: left;
+	padding-left: 10px;
+	font-weight: normal;
+	font-size: 11pt;
+	background: #bdcacc;
+}
+
+table#painelCot th.dataFoot{
+	text-align: center;
+	font-size: 9pt;	
+}
+
+iframe #frmPreview {
+	width: 397px;
+}
+
+.widget-right {
+	margin-right: 5px;
+}
+
+
+.centralizah3 {
+   text-align: center;
+}
+
+
+#widgetAgronPrincipal {
+    width: 655px; 
+    height: 103px;
+    box-shadow: 1px 6px 6px rgba(0,0,0,.6);
+}
+
+#widgetAgron {
+    width: 700px; 
+    height: 103px;
+}
+
+/* TABLE COTTON ESPECIF */
+.col-md-7 #tabelEspecif {
+    width: 460px;
+    background: #dce7e9;
+    border: 0px double #000000;
+    border-spacing: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.col-md-7 #especifDesc { 
+    background: #b2c3c6;
+    border: 1px solid #ffffff;	
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bolder;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.col-md-7 .especifDateCollumn01 {
+    padding-left: 5px;
+    border: 1px solid #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-md-7 .especifDateCollumn02 {
+    color: #ffffff;
+    background: #b2c3c6;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* TABLE OTHERS PRODUCT ESPECIF */
+
+.tab-pane #tdSubAlgCol01 {
+    padding-left: 20px;
+}
+
+.tab-pane #tdSubAlgCol02 {
+    padding-left: 50px;
+    
+}
+
+.tab-pane #tdSubAlgCol01 ul > li.none {
+    list-style: none;
+}
+
+.tab-pane #tdSubAlgCol02 ul > li.none {
+    list-style: none;
+}
+
+.tab-pane #tdSubAlgCol03 ul > li.none {
+    list-style: none;
+}
+/* INDICATIVOS PRECOS*/
+
+.panel-body script {
+    color: red;
+}
+
+/* TABLE AGIO / DESÁGIO */
+.main-img-center {
+    margin-left: 70px;
+}
+
+/* INFORMATIVOS LI (LINK INEXISTENTE) */
+.nulo {
+    color: red;
+}
+
+
+/*TABLE HISTORICO ALG*/
+.tab-pane #tabelHistAlg {
+    width: 620px;
+    background: #dce7e9;
+    font-size: 12px;
+    font-family: courier sans-serif;
+    background: #dce7e9;
+    border: 0px double #000000;
+    border-spacing: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.tab-pane #titleHistAlg { 
+    background: #b2c3c6;
+    border: 1px solid #ffffff;	
+    text-align: center;
+    font-size: 10pt;
+    padding: 4px 2px 4px 2px;
+}
+
+.tab-pane #subTitleHistAlg { 
+    background: #b3c4c1;
+    border: 1px solid #ffffff;	
+    text-align: center;
+    font-size: 10pt;
+}
+
+.tab-pane .Col-hist {
+    padding: 1px 11px 1px 11px;
+    border: 1px solid #ffffff;
+}
+
+.tab-pane .Col-1-hist {
+    padding: 1px 7px 1px 7px;
+    border: 1px solid #ffffff;
+}
+
+li.none {
+    list-style: none;
+}
+ 
+#center {
+    text-align: center;
+}
+
+/*TABLE CAROÇO*/
+#carocoTable01 {
+    display: block;
+    margin: auto;
+}
+
+#tdNutri {
+    text-align: center;
+}
+
+
+#fotoEspecif {
+    width: 700px;
+    border: 0px double #000000;
+    border-spacing: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+}
+
+/*TABLE MILHO TXT*/
+#tbMilho {
+    border: 1px solid #000000;
+    margin-left: 100px;
+}
+
+#tbMilho td {
+    border: 1px solid #606060;
+    padding: 12px;
+    text-align: center;
+}
+
+
+/*POSITION LOCKUSERS*/
+.lockusers{
+    background-image: url("assets/img/lockusers_02.png");
+    position: absolute;
+    float: left;
+    top: 15px;
+    left: 40px;
+}
+
+.namesys{
+    text-align: center;
+}
+
+@media(max-width: 480px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        opacity: 0.3;
+    }
+}
+
+@media(max-width: 560px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        opacity: 0.3;
+    }
+}
+
+@media(max-width: 930px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
+
+@media(max-width: 1080px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 40px;
+    }
+}
+
+/* CBOT */
+div#border-none{
+    border: none;
+}
+
+
+/* ############################### 
+    ** CSS COTTON SYSTEM  **
+#################################*/
+
+
+#bodyPainel{
+    background-color: #EDEDED;
+}
+
+/* MENU VERTICAL */
+#divVerticalLeft{
+    position: fixed;
+    top: 75px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #333E46;
+    z-index: 3;
+}
+/* FIM MENU VERTICAL */
+
+/* LOGO */
+#divLogoCotton{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 75px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #EDEDED;
+}
+
+#namecotton{
+    position: absolute;
+    color: #000000;
+    top: -10px;
+    left: 85px;
+}
+/* FIM LOGO */
+
+/* DIV TOP PRINCIPAL */
+#divTopPrincipal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-left: 200px;
+    width: 100%;
+    height: 155px;
+    z-index: 2;
+}
+
+/* Div horizontal */
+#divHorizontalTop{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #333E46;
+}
+
+/* Sub Div Horizontal */
+#divLeftBTNs{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+
+}
+
+#bnt1Menu{ /* BTN Minha Conta  |  Sair do Sistema */
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+/* Campo de busca rápida no TOPO */
+#divFormSearch{
+    position: fixed;
+    top: 8px;
+    right: 0px;
+    width: 315px;
+}
+
+#inputSearch{
+    width: 200px;
+}
+
+#btnFastSearch{
+    position: fixed;
+    top: 8px;
+    right: 10px;
+}
+/* FIM - Campo de busca rápida no TOPO */
+
+#divNameLocal{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 8px;
+    background-color: #F7F7F7;
+}
+/* Fim Sub Div Horizontal */
+
+/* DIV NO TOPO DE BUSCA RÁPIDA */
+#divFastBotton{
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #EDEDED;
+}
+
+#bntFastMenu{ /* BTN Quadrados Menus Rápidos no TOPO*/
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+/* DIV ONDE APRESENTARÁ AS JANELAS */
+#divShowWindow{
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    margin-left: 203px;
+    margin-bottom: 30px;
+    width: 1220px;
+    height: auto;
+    z-index: 1;
+
+}
+
+/* DIVs DASHBOARD */
+
+/* DIV CALENDÁRIO */
+#calendario{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+#divAnotacoes{
+    position: absolute;
+    top: 5px;
+    left: 270px;
+    width: 730px;
+    height: 250px;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+}
+
+#div02{
+    position: absolute;
+    top: 290px;
+    left: 5px;
+    width: 350px;
+    height: 250px;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+}
+
+#div03{
+    position: absolute;
+    top: 290px;
+    left: 375px;
+    width: 300px;
+    height: 250px;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+}
+
+#div04{
+    position: absolute;
+    top: 290px;
+    left: 695px;
+    width: 300px;
+    height: 250px;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+}
+
+#div05{
+    position: absolute;
+    top: 5px;
+    left: 1010px;
+    width: 210px;
+    height: auto;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+}
+
+/********************************
+*** J A N E L A S ***
+********************************/
+
+/* CADASTRO GRUPOS */
+#formAreaGrupo, #listagemGrupo, #formAreaSubGrupo, #listagemSubGrupo { /* div do formulario */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 480px;
+    background-color: #F7F7F7; 
+    border: solid 1px #E6E6E6;
+    padding: 5px 10px 5px 10px;   
+}
+
+#formAreaSubGrupo, #listagemSubGrupo{
+    margin-left: 520px;
+}
+
+#btnCadGrupo{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 80px;
+}
+
+#listagemGrupo, #listagemSubGrupo{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 480px;
+    margin-bottom: 30px;
+}
+
+#tbGrupos{
+    width: 460px;
+    height: 25px;
+    padding-left: 5px;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+    background-color: #ffffff;
+    border: solid 1px #E6E6E6;
+}
+/* FIM CADASTRO GRUPOS */
+
+
+/* RODAPÉ DO SISTEMA */
+#footerSys{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 200px;
+    width: 100%;
+    height: 23px;
+    color: #333333;
+    background-color: #FFFFFF;
+    text-align: center;
+    z-index: 4;
+}
+
+/********************************
+***  ***
+********************************/

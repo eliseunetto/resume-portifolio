@@ -1,0 +1,156 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #EDEDED;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 200px;
+	width: 100%;
+	height: 80px;
+	background-color: #F7F7F7;
+
+}
+
+#divlogo{
+	background-color: #EDEDED;
+	width: 200px;
+	height: 80px;
+}
+
+#logo{
+	margin-top: 7px;
+	margin-left: 3px;
+}
+
+#namecotton{
+	position: absolute;
+	color: #000000;
+	top: -10px;
+	left: 85px;
+}
+
+.menusuperior{
+	width: 100%;
+	height: 25px;
+	margin-top: 2px;
+	margin-left: 5px;
+	font-weight: bolder;
+}
+
+
+#iconsheader{
+	margin-left: 5px;
+	margin-top: -5px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline; 
+	color: #000000;
+	}
+
+.menuesquerdo{
+	position: fixed;
+	top: 0px; /* eixo Y */
+	left: 0px; /* eixo X */
+	background-color: #2B4053;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+.bodyvisualiza {
+	position: absolute;
+	top: 90px;
+	left: 210px;
+	background-color: #a7d68f;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: #FFFFFF;
+	margin-left: 200px;
+	width: 100%;
+	height: 30px;
+}
+
+#rodape{
+	margin-left: 350px;
+}
+
+
+/*POSITION LOCKUSERS*/
+.lockusers{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+
+#lockusers02{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    
+}
+
+.namesys{
+    text-align: center;
+}
+
+@media(max-width: 480px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        opacity: 0.3;
+    }
+}
+
+@media(max-width: 560px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        opacity: 0.3;
+    }
+}
+
+@media(max-width: 930px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
+
+@media(max-width: 1080px){
+
+    .lockusers{
+        position: absolute;
+        top: 15px;
+        left: 40px;
+    }
+}
+
