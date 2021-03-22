@@ -8748,6 +8748,8 @@ h1, h2, h3, h4, h5,
   margin-bottom: 40px;
   padding: 2em;
   background: rgba(255, 255, 255, 0.1);
+  font-size: 0.9em;
+  height: 450px;
   width: 100%; }
   .services-1 .icon {
     display: block;
@@ -8800,11 +8802,14 @@ h1, h2, h3, h4, h5,
         background: #000000; }
 
 .desc {
-  height: 180px;
+  display: inline-block;
+  height: 190px;
+  font-size: 0.9em;
 }
 
 .tec {
-  height: 80px;
+  padding: 10px 0;
+  font-size: 0.9em;
   text-align: left;
   color: rgba(0, 0, 0, 0.7);
 }
